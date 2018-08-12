@@ -8,3 +8,80 @@ h1 {
     font-size: 50px;
     font-weight: bold;
 }
+div#sblue {
+    background: #5b6e89;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.colors {
+    float: left;
+}
+
+.colors {}
+
+div#spurple {
+    background: #8a738f;
+}
+
+div#sblack {
+    background: #010101;
+}
+
+div#iwhite {
+    background: #e2e2e0;
+}
+
+div#iwhite {
+    background: #262629;
+}
+
+.color.selected {
+    box-shadow: 0px 0px 13px #cfc064;
+    border: 1px solid #cfc064;
+}
+
+.phone {
+    text-align: center;
+}
+
+.pick-btn {
+    background: #27d2d0;
+    color: #fff;
+}
+
+.popup-title {
+    background: #fff;
+    width: 400px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.head {
+    padding: 0;
+}
+
+footer {
+    background: #ebebeb;
+    text-align: center;
+    padding: 0!important;
+}
+
+footer img {
+    width: 160px;
+}
+
+footer:before {
+    display: block;
+    height: 40px;
+    background: white;
+    width: 100%;
+}
