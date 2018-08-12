@@ -1,31 +1,44 @@
-:root{--textcolor:#151616;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'PT Sans',sans-serif}
-body{font-family:var(--main-font);color:var(--textColor);background: rgba(96,104,116,1);/* Old Browsers */background: -moz-linear-gradient(left, rgba(96,104,116,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(136,184,224,1) 100%); /* FF3.6+ */background: -webkit-gradient(left top, right top, color-stop(0%, rgba(96,104,116,1)), color-stop(40%, rgba(255,255,255,1)), color-stop(60%, rgba(255,255,255,1)), color-stop(100%, rgba(136,184,224,1)));/* Chrome, Safari4+ */background: -webkit-linear-gradient(left, rgba(96,104,116,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(136,184,224,1) 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(left, rgba(96,104,116,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(136,184,224,1) 100%); /* Opera 11.10+ */background: -ms-linear-gradient(left, rgba(96,104,116,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(136,184,224,1) 100%); /* IE 10+ */background: linear-gradient(to right, rgba(96,104,116,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(136,184,224,1) 100%);/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606874', endColorstr='#88b8e0', GradientType=1 );/* IE6-9 */}
+:root{--textcolor:#151616;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans', sans-serif;}
+body{font-family:var(--main-font);color:var(--textColor);background: rgba(47,59,75,1);background: -moz-linear-gradient(left, rgba(47,59,75,1) 0%, rgba(248,248,248,1) 49%, rgba(255,255,255,1) 49%, rgba(106,170,219,1) 100%);background: -webkit-gradient(left top, right top, color-stop(0%, rgba(47,59,75,1)), color-stop(49%, rgba(248,248,248,1)), color-stop(49%, rgba(255,255,255,1)), color-stop(100%, rgba(106,170,219,1)));background: -webkit-linear-gradient(left, rgba(47,59,75,1) 0%, rgba(248,248,248,1) 49%, rgba(255,255,255,1) 49%, rgba(106,170,219,1) 100%);background: -o-linear-gradient(left, rgba(47,59,75,1) 0%, rgba(248,248,248,1) 49%, rgba(255,255,255,1) 49%, rgba(106,170,219,1) 100%);background: -ms-linear-gradient(left, rgba(47,59,75,1) 0%, rgba(248,248,248,1) 49%, rgba(255,255,255,1) 49%, rgba(106,170,219,1) 100%);background: linear-gradient(to right, rgba(47,59,75,1) 0%, rgb(254, 254, 254) 49%, rgb(248, 248, 248) 49%, rgba(106,170,219,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f3b4b', endColorstr='#6aaadb', GradientType=1 );}
 img{max-width:100%}
 a{color:#28b7f2}
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 50px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 div#sblue {
     background: #5b6e89;
 }
 
 .color {
-    width: 30px;
-    height: 30px;
+    width: 39px;
+    height: 39px;
     border: 1px solid #fff;
     border-radius: 3px;
-    margin: 10px;
+    margin: 14px 10px;
+    cursor: pointer;
 }
 
 .colors {
     float: left;
+    margin-top: 19px;
+    margin-left: 8px;
+    margin-right: 30px;
 }
 
-.colors {}
-
+.apple .colors {
+    float: right;
+    margin-left: 26px;
+    margin-top: 81px;
+}
+div#sgrey {
+    background: #717178;
+}
 div#spurple {
     background: #8a738f;
 }
@@ -38,7 +51,7 @@ div#iwhite {
     background: #e2e2e0;
 }
 
-div#iwhite {
+div#iblack {
     background: #262629;
 }
 
@@ -49,20 +62,33 @@ div#iwhite {
 
 .phone {
     text-align: center;
+    margin-top: 24px;
+    float: left;
 }
 
 .pick-btn {
     background: #27d2d0;
     color: #fff;
+    float: left;
+    margin-left: 148px;
+    margin-top: 75px;
+    height: 41px;
+    width: 124px;
+    font-size: 17px;
 }
 
 .popup-title {
     background: #fff;
-    width: 400px;
+    width: 241px;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 6px 6px;
     border-radius: 3px;
-    border: 1px solid;
+    border: 1px solid #e5e5e5;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: -1px -1px 13px #b9b9b9;
+    color: #2f1a27;
+    cursor: pointer;
 }
 
 .head {
@@ -76,12 +102,79 @@ footer {
 }
 
 footer img {
-    width: 160px;
+    width: 120px;
 }
 
 footer:before {
     display: block;
-    height: 40px;
+    height: 34px;
     background: white;
     width: 100%;
+}
+.phone .pic {
+    width: 219px;
+    float: left;
+}
+
+.content .container {
+    max-width: 770px;
+}
+
+
+.phone .title {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-left: 179px;
+    font-size: 21px;
+    margin-bottom: 41px;
+}
+
+.phone.apple .title {
+    padding-right: 184px;
+    float: right;
+    text-align: right;
+    padding-left: 0;
+}
+
+.phone.apple .pic {
+    width: 187px;
+    margin-left: 50px;
+}
+
+.apple .pick-btn {
+    margin-left: 82px;
+}
+footer .container {
+    max-width: 720px;
+    padding-top: 9px;
+}
+
+footer .row>div:last-of-type img {
+    width: 72px;
+    padding-top: 4px;
+}
+.popup {
+    position: absolute;
+    bottom: -128px;
+}
+
+.content.bg {
+    padding-bottom: 58px;
+}
+
+.popup-cont {
+    box-shadow: -1px -1px 13px #b9b9b9;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    bottom: 1px;
+    position: absolute;
+    z-index: 9;
+    display: none;
+}
+
+
+.phone.apple {
+    margin-left: -32px;
 }
