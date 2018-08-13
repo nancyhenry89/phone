@@ -14,13 +14,13 @@ div#iwhite{background:#e2e2e0}
 div#iblack{background:#262629}
 .color.selected{box-shadow:0 0 13px #cfc064;border:1px solid #cfc064}
 .phone{text-align:center;margin-top:24px;float:left;max-width: 100%;}
-.pick-btn{background:#27d2d0;color:#fff;float:left;margin-left:148px;margin-top:75px;height:41px;width:124px;font-size:17px;transition:all .5s ease}
+.pick-btn{background:#27d2d0;color:#fff;float:left;margin-left:148px;margin-top:75px;height:41px;width:124px;font-size:17px;transition:all .5s ease;font-weight: bold;}
 .popup-title{background:#fff;width:241px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease}
 .head{padding:0;}
 footer{background:#ebebeb;text-align:center;padding:0!important}
 footer img{width:120px}
 footer:before{display:block;height:34px;background:#fff;width:100%}
-.phone .pic{width:219px;float:left;max-width: 100%;margin: 0;}
+.phone .pic{width:219px;float:left;max-width: 100%;margin: 0;height: 380px;}
 .content .container{max-width:770px}
 .phone .title{float:left;width:100%;text-align:left;padding-left:179px;font-size:21px;margin-bottom:41px}
 .phone.apple .title{padding-right:184px;float:right;text-align:right;padding-left:0}
@@ -28,16 +28,16 @@ footer:before{display:block;height:34px;background:#fff;width:100%}
 .apple .pick-btn{margin-left:82px}
 footer .container{max-width:720px;padding-top:9px}
 footer .row>div:last-of-type img{width:72px;padding-top:4px}
-.popup{position:absolute;bottom:-128px}
+.popup{position:absolute;bottom: -38px;}
 .content.bg{padding-bottom:58px;min-height: calc(100vh - 250px);}
-.popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:600px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
+.popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width: 460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none;}
 .phone.apple{margin-left:-32px;}
 .popup h2{font-size:13px;font-weight:700;color:#331830;padding:0 0 8px;margin-top:0}
 .txt-wrap{width:100%;position:relative}
 .point{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;margin-bottom:11px;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}
 .point .left{min-width:70px;width:140px;margin-right:15px}
 .point .right{width:100%;-ms-flex:0 1 auto;flex:0 1 auto}
-.point p{font-size:12px;font-weight:400;color:#26262a;margin-bottom:2px}
+.point p{font-size: 9px;font-weight:400;color:#26262a;margin-bottom:2px;}
 .point .listed{padding:10px 0 0 35px}
 .popup .wrp{padding:10px;background-color:#fff;border:1px solid #c5c5c5;position:relative;max-width:100%}
 .popup .close{position:absolute;right:9px;top:8px;opacity:.5}
@@ -320,5 +320,107 @@ a#back {
 
 .free {
     width: 100%;
+}
+}
+@media screen and (min-width:1400px){
+    h1{font-size:50px}
+    .phone .title {
+    font-size: 30px;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+}
+
+.phone .pic {
+    width: 285px;
+}
+
+.phone.apple .pic {
+    width: 245px;
+}
+
+.pick-btn {
+    font-size: 22px;
+    width: 165px;
+    height: 54px;
+}
+
+.content .container {
+    max-width: 920px;
+}
+
+footer:before {
+    height: 45px;
+}
+
+.popup {
+    bottom: -157px;
+}
+
+.popup-title {
+    font-size: 13px;
+    width: 310px;
+    height: 34px;
+}
+
+footer .container {
+    padding-top: 20px;
+}
+
+footer img {
+    width: 135px;
+}
+
+footer .row>div:last-of-type img {
+    width: 96px;
+}
+h3.sub-title{font-size:30px;max-width: 567px;}
+.selected-phone .pic {
+    width: 216px;
+}
+
+.input-cont input {
+    width: 410px;
+    height: 55px;
+    font-size: 18px;
+}
+
+.input-cont .icon {
+    width: 30px;
+    top: 18px;
+    left: 14px;
+}
+
+.form p {
+    font-size: 13px;
+}
+
+label.form-check-label {
+    font-size: 13px;
+}
+
+.note {
+    font-size: 10px;
+}
+
+.free {
+    width: 388px;
+    height: 55px;
+}
+
+.free .text {
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.free .icon {
+    width: 35px;
+    padding-top: 4px;
+}
+
+a#back {
+    font-size: 14px;
 }
 }
