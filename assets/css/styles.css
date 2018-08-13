@@ -15,12 +15,12 @@ div#iblack{background:#262629}
 .color.selected{box-shadow:0 0 13px #cfc064;border:1px solid #cfc064}
 .phone{text-align:center;margin-top:24px;float:left;max-width:100%}
 .pick-btn{background:#27d2d0;color:#fff;float:left;margin-left:148px;margin-top:75px;height:41px;width:124px;font-size:17px;transition:all .5s ease;font-weight:700}
-.popup-title{background:#fff;width: 270px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align: center;}
+.popup-title{background:#fff;width:270px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 .head{padding:0;position:relative;min-height:100vh;padding-bottom:109px}
 footer{background:#ebebeb;text-align:center;padding:0!important}
 footer img{width:120px}
 footer:before{display:block;height:34px;background:#fff;width:100%}
-.phone .pic{width:219px;float:left;max-width:100%;margin:0;height: 330px;position: relative;}
+.phone .pic{width:219px;float:left;max-width:100%;margin:0;height:330px;position:relative}
 .content .container{max-width:770px}
 .phone .title{float:left;width:100%;text-align:left;padding-left:179px;font-size:21px;margin-bottom:41px}
 .phone.apple .title{padding-right:184px;float:right;text-align:right;padding-left:0}
@@ -68,94 +68,71 @@ label.form-check-label{width:calc(100% - 43px);font-size:9px;padding-left:19px}
 ::-moz-placeholder{color:#24cdd4}
 :-ms-input-placeholder{color:#24cdd4}
 :-moz-placeholder{color:#24cdd4}
-.pic:after {
-    content: "";
-    width: 0;
-    height: 0;
-    box-shadow: 41px 47px 88px 12px #757575;
-    display: block;
-    background: transparent;
-    position: absolute;
-    width: 160px;
-}
+.pic:after{content:"";width:0;height:0;box-shadow:41px 47px 88px 12px #757575;display:block;background:transparent;position:absolute;width:160px}
 @media screen and (max-width:767px) {
-    .pic:after{display:none}
+.pic:after{display:none}
 label.form-check-label{width:calc(100% - 13px);font-size:12px}
 .form p{font-size:13px}
 .note{font-size:11px;padding-right:0}
 .note:last-of-type{padding-right:0}
 .input-cont .icon{width:30px;top:14px;left:14px}
-.colors{width:144px;margin:auto;}
+.colors{width:144px;margin:auto}
 .color{float:left;margin:14px 3px;width:30px;height:30px}
-.prod{display:flex;flex-direction:column-reverse;float:left;flex:0 0 100%;width: 100%;}
-.apple .prod{width: 100%;position:relative;/* margin-left:-70px */}
+.prod{display:flex;flex-direction:column-reverse;float:left;flex:0 0 100%;width:100%}
+.apple .prod{width:100%;position:relative}
 .phone.apple .title{padding:0}
-.phone .pic{width: 133px;height: 210px;margin: auto;}
-.phone.apple .pic{width: 113px;max-width:100%;margin:auto;height: 210px;}
+.phone .pic{width:133px;height:210px;margin:auto}
+.phone.apple .pic{width:113px;max-width:100%;margin:auto;height:210px}
 .phone.apple .title{padding:0;text-align:center}
-.phone .title{padding:0;text-align:center;margin-top:0;display: 18px;}
-.phone.apple{float:right;margin-left: 0;}
+.phone .title{padding:0;text-align:center;margin-top:0;display:18px}
+.phone.apple{float:right;margin-left:0}
 .phone{text-align:center}
 .apple .colors{width:72px;margin:auto}
-body{background:rgba(96,105,116,1);background: -moz-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background: -webkit-gradient(left top,right top,color-stop(0%,rgba(96,105,116,.8)),color-stop(45%,rgba(245,245,245,.8)),color-stop(55%,rgba(245,245,245,.8)),color-stop(100%,rgba(136,185,225,.8)));background: -webkit-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background: -o-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background: -ms-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background: linear-gradient(to right,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#606974',endColorstr='#88b9e1',GradientType=1);}
-.pick-btn{margin:auto;float:none;margin-top:30px;font-size:17px;width: 140px;}
-.apple .pick-btn{margin:auto;margin-top:30px;max-width: 100%;}
-.popup{bottom: -100px;left:50%;margin-left: -135px;z-index:9;}
-footer:before{height:50px;margin-top: -10px;}
-h1{font-size: 20px;letter-spacing:0;word-spacing:0;}
+body{background:rgba(96,105,116,1);background:-moz-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(96,105,116,.8)),color-stop(45%,rgba(245,245,245,.8)),color-stop(55%,rgba(245,245,245,.8)),color-stop(100%,rgba(136,185,225,.8)));background:-webkit-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:-o-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:-ms-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:linear-gradient(to right,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#606974',endColorstr='#88b9e1',GradientType=1)}
+.pick-btn{margin:auto;float:none;margin-top:30px;font-size:17px;width:140px}
+.apple .pick-btn{margin:auto;margin-top:30px;max-width:100%}
+.popup{bottom:-100px;left:50%;margin-left:-135px;z-index:9}
+footer:before{height:50px;margin-top:-10px}
+h1{font-size:20px;letter-spacing:0;word-spacing:0}
 footer .container .row>div:first-of-type,footer .container .row>div:last-of-type{display:none}
 footer .container .row>div{width:100%}
 footer img{width:170px}
 footer{padding:10px 0!important}
-.content.bg{padding-bottom: 20px;}
-.popup-cont{width: 96vw;left: calc(50%);margin-left: -48vw;}
-.point .left{margin-right: 8px;width:100px;}
+.content.bg{padding-bottom:20px}
+.popup-cont{width:96vw;left:calc(50%);margin-left:-48vw}
+.point .left{margin-right:8px;width:100px}
 .point p{font-size:9px}
 .point{margin-bottom:5px}
 .popup h2{margin-bottom:5px}
-.popup .wrp{padding: 14px 7px;}
-h3.sub-title{font-size: 15px;padding: 0 49px;}
+.popup .wrp{padding:14px 7px}
+h3.sub-title{font-size:15px;padding:0 49px}
 .step2-cont{display:flex;flex-direction:column-reverse}
 .form{padding:0}
 .selected-phone{width:100%;text-align:center}
-.selected-phone .pic{float:none;margin:auto;width: 100px;margin-top: 30px;}
-a#back{padding-left:0;font-size:15px;margin-top: 40px;}
+.selected-phone .pic{float:none;margin:auto;width:100px;margin-top:30px}
+a#back{padding-left:0;font-size:15px;margin-top:40px}
 .input-cont input{width:100%;height:50px;font-size:17px}
-.free{width:100%;height: 50px;padding-top: 5px;padding-left: 30px;}
-
-.free .icon {
-    margin-top: 5px;
-}
-
-.free .text {
-    font-size: 20px;
-}
-div#step1 {
-    padding: 0;
-}
-
-div#step2 {
-    padding: 0;
-}
+.free{width:100%;height:50px;padding-top:5px;padding-left:15px}
+.free .icon{margin-top:5px}
+.free .text{font-size:18px;padding-top:6px}
+div#step1{padding:0}
+div#step2{padding:0}
 }
 @media screen and (max-width:414px) {
-    h3.sub-title{padding:0}
-.popup{
-    bottom: -91px;
-}
+h3.sub-title{padding:0}
+.popup{bottom:-91px}
 }
 @media screen and (max-width:375px) {
-.popup{
-    bottom: -92px;
+.popup{bottom:-92px}
 }
 @media screen and (min-width: 1400px) {
-    .phone .pic{height:380px}
+.phone .pic{height:380px}
 h1{font-size:50px}
 .phone .title{font-size:30px}
 .color{width:50px;height:50px}
 .phone .pic{width:285px}
 .phone.apple .pic{width:245px}
-.pick-btn{font-size:22px;width:165px;height:54px;margin-left: 161px;}
+.pick-btn{font-size:22px;width:165px;height:54px;margin-left:161px}
 .content .container{max-width:920px}
 footer:before{height:45px}
 .popup{bottom:-132px}
@@ -173,5 +150,5 @@ label.form-check-label{font-size:13px}
 .free{width:388px;height:55px}
 .free .text{font-size:20px;padding-top:8px}
 .free .icon{width:35px;padding-top:4px}
-a#back{font-size:14px;padding-left: 140px;}
+a#back{font-size:14px;padding-left:140px}
 }
