@@ -43,7 +43,7 @@ footer .row>div:last-of-type img{width:72px;padding-top:4px}
 .popup .close{position:absolute;right:9px;top:8px;opacity:.5}
 .popup-title:hover{background:#dcdcdc}
 .pick-btn:hover{background:#37f5f3;color:#fff}
-h3.sub-title{text-align:center;font-size:22px;max-width:427px;margin:auto;margin-top:10px;line-height:28px;margin-bottom:50px}
+h3.sub-title{text-align:center;font-size:22px;max-width:427px;margin:auto;margin-top:10px;line-height:28px;margin-bottom:50px;line-height: 140%;}
 .selected-phone .pic{width:193px;float:right}
 a#back{float:left;width:100%;color:#525357;font-size:12px;margin-top:70px;text-align:center;padding-left:100px;text-decoration:underline;cursor:pointer}
 .input-cont input{width:300px;height:40px;border:2px solid #24cdd4;padding-left:50px}
