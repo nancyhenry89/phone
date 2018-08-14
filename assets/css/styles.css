@@ -28,7 +28,7 @@ footer:before{display:block;height:34px;background:#fff;width:100%}
 .apple .pick-btn{margin-left:82px}
 footer .container{max-width:720px;padding-top:9px}
 footer .row>div:last-of-type img{width:72px;padding-top:4px}
-.popup{position:absolute;bottom: -44px;z-index:9;}
+.popup{position: fixed;bottom: 20px;z-index:9;}
 .content.bg{padding-bottom:58px;min-height:calc(100vh - 250px)}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
 .phone.apple{margin-left:-32px}
@@ -91,7 +91,7 @@ label.form-check-label{width:calc(100% - 13px);font-size:12px}
 body{background:rgba(96,105,116,1);background:-moz-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(96,105,116,.8)),color-stop(45%,rgba(245,245,245,.8)),color-stop(55%,rgba(245,245,245,.8)),color-stop(100%,rgba(136,185,225,.8)));background:-webkit-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:-o-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:-ms-linear-gradient(left,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);background:linear-gradient(to right,rgba(96,105,116,.8) 0%,rgba(245,245,245,.8) 45%,rgba(245,245,245,.8) 55%,rgba(136,185,225,.8) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#606974',endColorstr='#88b9e1',GradientType=1)}
 .pick-btn{margin:auto;float:none;margin-top:30px;font-size:17px;width:140px}
 .apple .pick-btn{margin:auto;margin-top:30px;max-width:100%}
-.popup{bottom:-100px;left:50%;margin-left:-135px;z-index:9}
+.popup{bottom:-100px;left:50%;margin-left:-135px;z-index:9;position: absolute;}
 footer:before{height:50px;margin-top:-10px}
 h1{font-size:20px;letter-spacing:0;word-spacing:0}
 footer .container .row>div:first-of-type,footer .container .row>div:last-of-type{display:none}
@@ -135,7 +135,7 @@ h1{font-size:50px}
 .pick-btn{font-size:22px;width:165px;height:54px;margin-left:161px}
 .content .container{max-width:920px}
 footer:before{height:45px}
-.popup{bottom:-132px}
+.popup{/* bottom:-132px */}
 .popup-title{font-size:13px;width:310px;height:34px}
 footer .container{padding-top:20px}
 footer img{width:135px}
