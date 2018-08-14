@@ -28,7 +28,7 @@ footer:before{display:block;height:34px;background:#fff;width:100%}
 .apple .pick-btn{margin-left:82px}
 footer .container{max-width:720px;padding-top:9px}
 footer .row>div:last-of-type img{width:72px;padding-top:4px}
-.popup{position:absolute;bottom:-94px;z-index:9}
+.popup{position:absolute;bottom: -44px;z-index:9;}
 .content.bg{padding-bottom:58px;min-height:calc(100vh - 250px)}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
 .phone.apple{margin-left:-32px}
