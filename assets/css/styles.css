@@ -54,7 +54,7 @@ footer{position:absolute;width:100%;bottom:0}
 .popup-outer{float:left;width:100%;height:50px}
 .form p{font-size:9px;margin-top:11px;margin-bottom:15px;color:#2b2428}
 .checkboxes{font-size:11px}
-label.form-check-label{width:calc(100% - 43px);font-size:9px;padding-left:19px;color:#2b2428}
+label.form-check-label{width:calc(100% - 43px);font-size:9px;padding-left:19px;color:#2b2428;font-weight: normal;}
 .form-check input{margin-right:7px;margin-top:0;position:absolute;top:1px}
 .form{padding-right:78px}
 .form-check{position:relative}
