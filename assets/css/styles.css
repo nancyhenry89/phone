@@ -45,29 +45,29 @@ footer .row>div:last-of-type img{width:72px;padding-top:4px}
 .pick-btn:hover{background:#37f5f3;color:#fff}
 h3.sub-title{text-align:center;font-size:22px;max-width:427px;margin:auto;margin-top:10px;line-height:28px;margin-bottom:50px;line-height: 140%;}
 .selected-phone .pic{width:193px;float:right}
-a#back{float:left;width:100%;color:#525357;font-size:12px;margin-top:70px;text-align:center;padding-left:100px;text-decoration:underline;cursor:pointer}
-.input-cont input{width:300px;height:40px;border:2px solid #24cdd4;padding-left:50px}
+a#back{float:left;width:100%;color:#525357;font-size:12px;margin-top:70px;text-align:center;padding-left:100px;text-decoration:underline;cursor:pointer;display: none;}
+.input-cont input{width:300px;height:40px;border: 2px solid #f4cf56;padding-left:50px;}
 footer{position:absolute;width:100%;bottom:0}
 .input-cont .icon{position:absolute;left:10px;top:10px;width:18px}
 .input-cont{position:relative;margin-bottom:8px}
 .popup-outer{float:left;width:100%;height:50px}
-.form p{font-size:9px;margin-top:11px;margin-bottom:15px}
+.form p{font-size:9px;margin-top:11px;margin-bottom:15px;color: #2b2428;}
 .checkboxes{font-size:11px}
-label.form-check-label{width:calc(100% - 43px);font-size:9px;padding-left:19px}
+label.form-check-label{width:calc(100% - 43px);font-size:9px;padding-left:19px;color: #2b2428;}
 .form-check input{margin-right:7px;margin-top:0;position:absolute;top:1px}
 .form{padding-right:78px}
 .form-check{position:relative}
 .note{font-size:7px;margin-top:14px}
-.free{width:293px;background:#26cdcb;margin-top:6px;height:39px;color:#fff;padding-top:5px;padding-left:12px;text-align:center;border:2px solid #3ffdfd;margin-bottom:20px}
+.free{width:293px;margin-top:6px;height:39px;color:#fff;padding-top: 4px;padding-left:12px;text-align:center;margin-bottom:20px;background-image: linear-gradient(to bottom, #fcb227, #f7a21b, #f2910f, #ed8005, #e76f00);border: 2px solid #7e5e0fa3;border-top-color: #ba9947;border-bottom-color: #76580ec2;border-radius: 3px;border-bottom-width: 3px;box-shadow: 1px 2px 14px #888888;}
 .free .icon{width:24px;float:left}
 .free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;padding-top:3px;font-size:15px;word-spacing:5px}
 .note:last-of-type a{display:block}
-.note:last-of-type{padding-right:40px}
+.note:last-of-type{padding-right:40px;color: #7d7d7d;}
 #step2{display:none}
-::-webkit-input-placeholder{color:#24cdd4}
-::-moz-placeholder{color:#24cdd4}
-:-ms-input-placeholder{color:#24cdd4}
-:-moz-placeholder{color:#24cdd4}
+::-webkit-input-placeholder{color:#d2a000}
+::-moz-placeholder{color:#d2a000}
+:-ms-input-placeholder{color:#d2a000}
+:-moz-placeholder{color:#d2a000}
 .pic:after{content:"";width:0;height:0;box-shadow:41px 47px 88px 12px #757575;display:block;background:transparent;position:absolute;width:160px}
 @media screen and (max-width:767px) {
 .pic:after{display:none}
@@ -113,8 +113,8 @@ h3.sub-title{font-size:15px;padding:0 49px}
 a#back{padding-left:0;font-size:15px;margin-top:40px}
 .input-cont input{width:100%;height:50px;font-size:17px}
 .free{width:100%;height:50px;padding-top:5px;padding-left:15px}
-.free .icon{margin-top:5px}
-.free .text{font-size:18px;padding-top:6px}
+.free .icon{margin-top: 2px;width: 30px;}
+.free .text{font-size:18px;padding-top: 4px;}
 div#step1{padding:0}
 div#step2{padding:0}
 }
@@ -146,7 +146,7 @@ h3.sub-title{font-size:30px;max-width:567px}
 .input-cont .icon{width:30px;top:18px;left:14px}
 .form p{font-size:13px}
 label.form-check-label{font-size:13px}
-.note{font-size:10px}
+.note{font-size:10px;color: #2b2428;}
 .free{width:388px;height:55px}
 .free .text{font-size:20px;padding-top:8px}
 .free .icon{width:35px;padding-top:4px}
