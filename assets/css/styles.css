@@ -1,5 +1,5 @@
 :root{--textcolor:#151616;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
-body{font-family:var(--main-font);color:var(--textColor);background:rgba(47,59,75,1);background:-moz-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(47,59,75,1)),color-stop(49%,rgba(248,248,248,1)),color-stop(49%,rgba(255,255,255,1)),color-stop(100%,rgba(106,170,219,1)));background:-webkit-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:-o-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:-ms-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:linear-gradient(to right,rgba(47,59,75,1) 0%,#fefefe 49%,#f8f8f8 49%,rgba(106,170,219,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f3b4b',endColorstr='#6aaadb',GradientType=1)}
+.grad{font-family:var(--main-font);color:var(--textColor);background:rgba(47,59,75,1);background:-moz-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:-webkit-gradient(left top,right top,color-stop(0%,rgba(47,59,75,1)),color-stop(49%,rgba(248,248,248,1)),color-stop(49%,rgba(255,255,255,1)),color-stop(100%,rgba(106,170,219,1)));background:-webkit-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:-o-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:-ms-linear-gradient(left,rgba(47,59,75,1) 0%,rgba(248,248,248,1) 49%,rgba(255,255,255,1) 49%,rgba(106,170,219,1) 100%);background:linear-gradient(to right,rgba(47,59,75,1) 0%,#fefefe 49%,#f8f8f8 49%,rgba(106,170,219,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f3b4b',endColorstr='#6aaadb',GradientType=1)}
 img{max-width:100%}
 a{color:#28b7f2}
 h1{text-align:center;text-transform:uppercase;font-size:36px;font-weight:bolder;margin-top:50px;word-spacing:1px;letter-spacing:1px}
@@ -22,6 +22,14 @@ footer img{width:120px}
 footer:before{display:block;height:34px;background:#fff;width:100%}
 .phone .pic{width:219px;float:left;max-width:100%;margin:0;height:330px;position:relative}
 .content .container{max-width:770px}
+
+.content .container.offers {
+    max-width: 756px;
+    background: #fbfbfb;
+    padding: 0px 32px;
+    padding-top: 18px;
+    padding-bottom: 40px;
+}
 .phone .title{float:left;width:100%;text-align:left;padding-left:179px;font-size:21px;margin-bottom:41px}
 .phone.apple .title{padding-right:184px;float:right;text-align:right;padding-left:0}
 .phone.apple .pic{width:187px;margin-left:50px}
@@ -58,7 +66,7 @@ label.form-check-label{width:calc(100% - 43px);font-size:9px;padding-left:19px;c
 .form{padding-right:78px}
 .form-check{position:relative}
 .note{font-size:7px;margin-top:14px}
-.free{width:293px;margin-top:6px;height:39px;color:#fff;padding-top: 4px;padding-left:12px;text-align:center;margin-bottom:20px;background-image: linear-gradient(to bottom, #fcb227, #f7a21b, #f2910f, #ed8005, #e76f00);border: 2px solid #7e5e0fa3;border-top-color: #ba9947;border-bottom-color: #76580ec2;border-radius: 3px;border-bottom-width: 3px;box-shadow: 1px 2px 14px #888888;}
+.free{width:293px;margin-top:6px;height:39px;color:#fff;/* padding-top: 4px; */padding-left:12px;text-align:center;margin-bottom:20px;background-image: linear-gradient(to bottom, #fcb227, #f7a21b, #f2910f, #ed8005, #e76f00);border: 2px solid #7e5e0fa3;border-top-color: #ba9947;border-bottom-color: #76580ec2;border-radius: 3px;border-bottom-width: 3px;box-shadow: 1px 2px 14px #888888;}
 .free .icon{width:24px;float:left}
 .free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;padding-top:3px;font-size:15px;word-spacing:5px}
 .note:last-of-type a{display:block}
@@ -69,7 +77,122 @@ label.form-check-label{width:calc(100% - 43px);font-size:9px;padding-left:19px;c
 :-ms-input-placeholder{color:#d2a000}
 :-moz-placeholder{color:#d2a000}
 .pic:after{content:"";width:0;height:0;box-shadow:41px 47px 88px 12px #757575;display:block;background:transparent;position:absolute;width:160px}
+#membersPage header p {
+    color: #8cafee;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 17px;
+    letter-spacing: 1px;
+}
+
+#membersPage header>p {
+    color: #fff;
+    font-size: 29px;
+    background: #8cafee;
+    height: 67px;
+    line-height: 68px;
+    margin-top: 0;
+}
+
+#membersPage header, #membersPage {
+    padding: 0!important;
+}
+#membersPage .content {
+    background: #f1f1f1;
+    padding-top: 21px;
+    padding-bottom: 80px;
+}
+
+.offers {
+    background: #fff;
+    border: 1px solid #b7b7b7;
+}
+#membersPage header {height: 162px;padding-bottom: 15px!important;background: #fff;}
+.offer .title {
+    font-size: 14px;
+    margin-top: 12px;
+    word-spacing: 3px;
+}
+
+.has-review.offer .title {}
+
+.offer .title del {
+    color: #898989;
+}
+
+.buyers-number {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.offer .desc {
+    font-size: 12px;
+    margin-top: 12px;
+    padding-right: 10px;
+    margin-bottom: 11px;
+}
+
+.offer .btn {
+    font-size: 18px;
+    width: calc(100% - 24px);
+    background: #2fa9ff;
+    color: #fff;
+    line-height: 33px;
+    height: 49px;
+    -moz-box-shadow: inset  0  8px 8px -8px #696868,                          inset  0 -8px 8px -8px #696868;
+    -webkit-box-shadow: inset  0  8px 8px -8px #696868,                          inset  0 -8px 8px -8px #696868;
+    box-shadow: inset 0 0px 8px -8px #696868, inset 0 -8px 8px -8px #696868;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 11px;
+    transition: all .5s ease;
+}
+
+.offer .btn:hover {
+    background: #207ab9;
+}
+.offer {
+    margin-bottom: 0px;
+    padding: 30px 10px;
+    padding-bottom: 16px;
+    height: 410px;
+    position: relative;
+}
+.offer-img {
+    max-width: 188px;
+    margin: auto;
+    height: 187px;
+    position: relative;
+}
+.review {
+    color: #85c1ec;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.review span {
+    letter-spacing: 1px;
+}
+.has-review .buyers-number {
+    margin-top: 3px;
+}
+
+.has-review.offer .desc {
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.gone {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    bottom: 0;
+    right: 0;
+    padding: 1px 12px;
+    letter-spacing: 1px;
+}
 @media screen and (max-width:767px) {
+
 .pic:after{display:none}
 label.form-check-label{width:calc(100% - 13px);font-size:12px}
 .form p{font-size:13px}
@@ -112,11 +235,38 @@ h3.sub-title{font-size:15px;padding:0 49px}
 .selected-phone .pic{float:none;margin:auto;width:100px;margin-top:30px}
 a#back{padding-left:0;font-size:15px;margin-top:40px}
 .input-cont input{width:100%;height:50px;font-size:17px}
-.free{width:100%;height:50px;padding-top:5px;padding-left:15px}
+.free{width:100%;height:50px;/* padding-top:5px; */padding-left:15px;}
 .free .icon{margin-top: 4px;width: 30px;}
 .free .text{font-size:18px;padding-top: 6px;}
 div#step1{padding:0}
+
 div#step2{padding:0}
+#membersPage header>p {
+    height: 108px;
+    line-height: 49px;
+}
+
+#membersPage header {
+    height: 230px;
+}
+
+}
+@media screen and (max-width:768px) {
+
+
+.container.offers {
+    text-align: center;
+}
+
+.offer .btn {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.offer {
+    height: 420px;
+}
 }
 @media screen and (max-width:414px) {
 h3.sub-title{padding:0}
